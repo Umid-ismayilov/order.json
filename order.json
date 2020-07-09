@@ -56,7 +56,7 @@
     "shipments": [
       {
 
-        "order_id": 12345,
+        "order_id": 12345, // sifaris id
 
         "number": 465583888,
         "items": [
@@ -66,9 +66,9 @@
             "products": [
               {
 
-                "productId": 12345,
-                "userId": 12345,
-                "productType": "T-Shirt",
+                "productId": 12345, // Mehsulun id
+                "userId": 12345,// istifadeci id
+                "productType": "T-Shirt", //mehsul type
                 
                 "quantity": 1,
                 "fulfillmentTypeId": 2,
@@ -89,12 +89,12 @@
                 },
 
 
-                "productPrice": "39.99",
+                "productPrice": "39.99", 
                 "cargoPrice": "10",
-                "customerPaided": "20.50",
-                "totalExpensePrice ": "49.99",
+                "customerPaided": "20.50", // musteri odediyi mebleg
+                "totalExpensePrice ": "49.99", // (productPrice*quantity+cargoPrice)
                 "maskedCardNumber": "****7733",
-                "bankName": "ishBankasi",
+                "bankName": "ishBankasi", //bank
 
 
                 "discountedPrice": "39.99",
@@ -109,7 +109,7 @@
               "trackingLink": "https://ws-ai-ext.aktif.com/trendyol/takip/TrendyolKargoDurum.aspx?g=P01120015683AS5553628729",
               "trackingNumber": 1002430466851,
 
-              "deliveryNumber": 222222,
+              "deliveryNumber": 222222, // 
 
             }
           }
