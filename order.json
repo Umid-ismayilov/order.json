@@ -1,0 +1,145 @@
+{
+  "isSuccess": true,
+  "statusCode": 200,
+  "error": null,
+  "result": {
+    "summary": {
+      "isReady": true,
+      "id": "154160931",
+      "orderNumber": "313198279",
+      "orderDate": 1593900326163,
+      "coupons": [
+        
+      ],
+      "discounts": [
+        {
+          "name": "Elite Kargo Bedava",
+          "amount": 18.99
+        }
+      ],
+      "address": {
+        "address1": "Bahcelievler Cobancesme Kalender sokak no 8 ASE5174 ",
+        "city": " İstanbul ",
+        "district": "Bahçelievler",
+        "firstName": "Nijat",
+        "lastName": "Asadov",
+        "maskedPhone": "555*****29",
+        "neighborhood": "Çobançeşme Mah"
+      },
+      "payment": {
+        "cardTypeLogoUrl": "https://cdn.dsmcdn.com/assets/BankLogos/bank-logo-new/bg-cc-visa.png",
+        "cargo": 18.99,
+        "installmentCost": 0,
+        "installmentCount": 1,
+        "maskedCardNumber": "****7733",
+        "methodName": "AkbankSanalPos",
+        "productSubTotal": 1014.68,
+        "totalCharges": 1014.68
+      },
+      "counts": {
+        "shipment": 0,
+        "created": 0,
+        "preparing": 3,
+        "shipped": 6,
+        "delivered": 4,
+        "unDelivered": 0,
+        "returned": 0,
+        "createdInbound": 0,
+        "shippedInbound": 0,
+        "waitingInAction": 0,
+        "accepted": 0,
+        "rejected": 0,
+        "cancel": 0,
+        "creating": 0
+      }
+    },
+    "shipments": [
+      {
+
+        "order_id": 12345,
+
+        "number": 465583888,
+        "items": [
+          {
+            "status": "Delivered",
+            "date": 1594112598836,
+            "products": [
+              {
+
+                "product_id": 12345,
+                "user_id": 12345,
+                "product_type": 'T-Shirt',
+
+                "quantity": 1,
+                "fulfillmentTypeId": 2,
+                "lineId": "335110022",
+                "contentId": 36824233,
+                "campaignId": 511046,
+                "merchantId": 968,
+                "name": "Çok Renkli Erkek 5'li Paket Çorap TMNSS20CO0034",
+                "brandName": "TRENDYOL MAN",
+                "imageUrl": "https://cdn.dsmcdn.com/assets/product/media/images/20200320/17/4672045/65474282/3/3_org_zoom.jpg",
+                "businessUnit": "PL Erkek",
+                "variant": {
+                  "id": 634738501,
+                  "name": "Çok Renkli , Tek Ebat",
+                  "barcode": "8682165811978",
+                  "itemNumber": 65474282,
+                  "rushDelivery": true
+                },
+
+
+                "productPrice": "39.99",
+                "cargoPrice": "10",
+                "customerPaided": "20.50",
+                "totalExpensePrice ": "49.99",
+                "maskedCardNumber": "****7733",
+                "bankName": "ishBankasi",
+
+
+                "discountedPrice": "39.99",
+                "sellingPrice": "39.99",
+                "currency": "TRY",
+                "originalPrice": "39.99",
+                "url": "/trendyol-man/cok-renkli-erkek-5-li-paket-corap-tmnss20co0034-p-36824233?boutiqueId=511046&merchantId=968"
+              }
+            ],
+            "cargoInfo": {
+              "providerName": "AGT",
+              "trackingLink": "https://ws-ai-ext.aktif.com/trendyol/takip/TrendyolKargoDurum.aspx?g=P01120015683AS5553628729",
+              "trackingNumber": 1002430466851,
+
+              "deliveryNumber": 222222,
+
+            }
+          }
+        ],
+        "claimable": true,
+        "addressUpdatable": false,
+        "cancellable": false,
+        "estimatedDeliveryStartDate": 1593997525000,
+        "estimatedDeliveryEndDate": 1594256725000,
+        "address": {
+          "address1": "Bahcelievler Cobancesme Kalender sokak no 8 ASE5174 ",
+          "firstName": "Nijat",
+          "lastName": "Asadov",
+          "neighborhood": "Çobançeşme Mah",
+          "maskedPhone": "555*****29",
+          "district": "Bahçelievler",
+          "city": " İstanbul "
+        },
+        "deliveryId": 243046685,
+        "fulfillmentTypeId": 2,
+        "supplier": {
+          "id": 968,
+          "name": "",
+          "title": "Trendyol - DSM Grup Danışmanlık İletişim ve Satış Tic. A.Ş.",
+          "cityName": " İstanbul "
+        }
+      },
+    ]
+  },
+  "headers": {
+    
+  }
+}
