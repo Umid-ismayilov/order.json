@@ -69,7 +69,7 @@
                 "productId": 12345,
                 "userId": 12345,
                 "productType": "T-Shirt",
-
+                
                 "quantity": 1,
                 "fulfillmentTypeId": 2,
                 "lineId": "335110022",
